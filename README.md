@@ -27,9 +27,31 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## install project laravel
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+* the next command is to install laravel with composer
+
+`composer global require laravel/installer`
+
+* Create a new project laravel
+
+`composer create-project --prefer-dist laravel/laravel <name-project>`
+
+* Run the project
+
+``` 
+$ cd <name-project>
+$ php artisan serve
+ Laravel development server started: http://127.0.0.1:8000
+```
+
+* Create a new model
+
+`php artisan make:model <name-model> -m`
+
+* Create tables in the data base 
+
+`php artisan migrate`
 
 ### Premium Partners
 
